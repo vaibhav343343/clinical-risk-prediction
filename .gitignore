@@ -1,0 +1,20 @@
+# Data (never commit patient data, even de-identified)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+clinical-risk/
+
+# MLflow
+mlruns/
+
+# Environment
+.env
+# OS
+.DS_Store
+Thumbs.db
